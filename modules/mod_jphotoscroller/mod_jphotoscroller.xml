@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.0.0" client="site" method="update">
+	<name>j Photo Scroller</name>
+	<author>Ahmad Fahim Ayub</author>
+	<creationDate>April 2015</creationDate>
+	<copyright>Copyright (C)2015 Preflight Pty Ltd</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>fahim@preflight.com.au</authorEmail>
+	<authorUrl>www.preflight.com.au</authorUrl>
+	<version>1.0</version>
+	<description>A module displaying images inside the jQuery plugin"Responsive Slides".</description>
+	<files>
+		<filename module="mod_jphotoscroller">mod_jphotoscroller.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_jphotoscroller.xml</filename>
+	</files>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="Basic">
+				<field
+					name="image1"
+					type="text"
+					default=""
+					label="Image 1 "
+					description="Please provide the image URL/link (address) to display in the slider" />
+			<field
+					name="image2"
+					type="text"
+					default=""
+					label="Image 2 "
+					description="Please provide the image URL/link (address) to display in the slider" />
+			<field
+					name="image3"
+					type="text"
+					default=""
+					label="Image 3 "
+					description="Please provide the image URL/link (address) to display in the slider" />
+			<field
+					name="image4"
+					type="text"
+					default=""
+					label="Image 4 "
+					description="Please provide the image URL/link (address) to display in the slider" />
+			<field
+					name="image5"
+					type="text"
+					default=""
+					label="Image 5 "
+					description="Please provide the image URL/link (address) to display in the slider" />	
+			<field
+					name="image6"
+					type="text"
+					default=""
+					label="Image 6 "
+					description="Please provide the image URL/link (address) to display in the slider" />	
+			<field
+					name="image7"
+					type="text"
+					default=""
+					label="Image 7 "
+					description="Please provide the image URL/link (address) to display in the slider" />	
+			<field
+					name="image8"
+					type="text"
+					default=""
+					label="Image 8 "
+					description="Please provide the image URL/link (address) to display in the slider" />	
+			<field
+					name="image9"
+					type="text"
+					default=""
+					label="Image 9 "
+					description="Please provide the image URL/link (address) to display in the slider" />	
+			<field
+					name="image10"
+					type="text"
+					default=""
+					label="Image 10 "
+					description="Please provide the image URL/link (address) to display in the slider" />	
+			</fieldset>
+		</fields>
+	</config>
+</extension>

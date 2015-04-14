@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.7.0" client="site" method="update">
+	<name>sortable</name>
+	<author>Ahmad Fahim Ayub</author>
+	<creationDate>April 2015</creationDate>
+	<copyright>Copyright (C)2015 Preflight Pty Ltd</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>fahim@preflight.com.au</authorEmail>
+	<authorUrl>www.preflight.com.au</authorUrl>
+	<version>1.0</version>
+	<description>A module displaying all the single article menu items and their
+	articles.</description>
+	<files>
+		<filename module="mod_sortable">mod_sortable.php</filename>
+		<filename>index.html</filename>
+		<filename>mod_sortable.xml</filename>
+	</files>
+</extension>
