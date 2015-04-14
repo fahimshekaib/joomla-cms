@@ -38,9 +38,12 @@ else
 // Add JavaScript Frameworks
 JHtml::_('bootstrap.framework');
 $doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/template.js');
-
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/stupidtable.min.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/responsiveslides.min.js');
+$doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/joomla-cms.js');
 // Add Stylesheets
 $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/template.css');
+$doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/css/joomla-cms.css');
 
 // Load optional RTL Bootstrap CSS
 JHtml::_('bootstrap.loadCss', false, $this->direction);
