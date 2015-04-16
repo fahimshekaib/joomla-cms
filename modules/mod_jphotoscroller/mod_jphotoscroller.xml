@@ -16,68 +16,91 @@
 	</files>
 	
 	<config>
-		<fields name="params">
-			<fieldset name="Basic">
+	<fields name="params" label="fahim">
+	  <fieldset name="basic" label="General Settings" >	
 				<field
 					name="image1"
-					type="text"
+					type="media"
 					default=""
 					label="Image 1 "
 					description="Please provide the image URL/link (address) to display in the slider" />
 			<field
 					name="image2"
-					type="text"
+					type="media"
 					default=""
 					label="Image 2 "
 					description="Please provide the image URL/link (address) to display in the slider" />
 			<field
 					name="image3"
-					type="text"
+					type="media"
 					default=""
 					label="Image 3 "
 					description="Please provide the image URL/link (address) to display in the slider" />
 			<field
 					name="image4"
-					type="text"
+					type="media"
 					default=""
 					label="Image 4 "
 					description="Please provide the image URL/link (address) to display in the slider" />
 			<field
 					name="image5"
-					type="text"
+					type="media"
 					default=""
 					label="Image 5 "
 					description="Please provide the image URL/link (address) to display in the slider" />	
 			<field
 					name="image6"
-					type="text"
+					type="media"
 					default=""
 					label="Image 6 "
 					description="Please provide the image URL/link (address) to display in the slider" />	
 			<field
 					name="image7"
-					type="text"
+					type="media"
 					default=""
 					label="Image 7 "
 					description="Please provide the image URL/link (address) to display in the slider" />	
 			<field
 					name="image8"
-					type="text"
+					type="media"
 					default=""
 					label="Image 8 "
 					description="Please provide the image URL/link (address) to display in the slider" />	
 			<field
 					name="image9"
-					type="text"
+					type="media"
 					default=""
 					label="Image 9 "
 					description="Please provide the image URL/link (address) to display in the slider" />	
 			<field
 					name="image10"
-					type="text"
+					type="media"
 					default=""
 					label="Image 10 "
 					description="Please provide the image URL/link (address) to display in the slider" />	
+			<field type="spacer" name="topspacer" label="&lt;hr/&gt;&lt;/b&gt;" />
+			<field name="radio_value" type="radio" default="0" label="Select an option" description="">
+  					<option value="0">Display from the above URLs</option>
+  					<option value="1">Display from the selected folder below</option>
+					</field>
+			<field type="spacer" name="bottomspacer" label="&lt;hr/&gt;&lt;/b&gt;" />
+					 <field type="radio" name= "Info" label="&lt;h3 style='color:red'/&gt;Instructions to use the folder option? &lt;/h3&gt; &lt;br/&gt; 1. Go to Media manager. &lt;br/&gt; 2. Create folder and name it something relevant that you remember &lt;br/&gt; 3. Upload your images in that folder &lt;br/&gt; 4. Select the folder from the drop down list below."  />
+			<field
+					name="selected_folder_path"
+					type="folderlist"
+					default=""
+					label="Folder Path: "
+					directory="images"
+					description="Please provide the folder URL/link (address) to display it's images in the slider" />	
+			<field
+					name="number_of_folder_images"
+					type="integer"
+					default=""
+					label="Number of images: "
+					description="Please select how many images you want to display in the slider"
+					first="1" 
+					last="20" 
+					step="1"  />
 			</fieldset>
 		</fields>
 	</config>
