@@ -10,7 +10,7 @@
 /cache
 /logs
 /tmp
-/configuration.php
+configuration.php
 /.htaccess
 /web.config
 /installation
